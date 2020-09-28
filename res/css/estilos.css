@@ -1,0 +1,1423 @@
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+     background: url(../imagenes/parte-arriba.png);
+    background-repeat: no-repeat;
+}
+li{
+    list-style: none;
+    
+}
+
+/*-------Menú------------------------------------------------*/
+header{
+   width: 1920px;
+   height: 100px; 
+}
+#logo {
+    width: 400px;
+    height: 125px;
+    float:left;
+    margin: 20px;
+}
+
+#menu{
+    width: 700px;
+    height: 100px;
+    border: 0px solid #000;
+    float: right;
+    margin-top: 40PX;
+}
+
+#menu ul{
+    list-style: none;
+    margin: 0 0 50px 0;
+    padding: 0;
+}
+
+#menu ul li a{
+    display: block;
+    text-decoration: none;
+    font-weight: 400px;
+    font-size: 20px;
+    padding: 10px 15px;
+    letter-spacing: 1px;
+    color: white;
+}
+
+#menu ul li {
+    position: relative;
+    float: left;
+    margin:0;
+    padding:0;
+}
+
+#menu ul li:hover{
+    background: #C94570;
+    border-radius: 30px;
+    transition-duration:0.5s;
+    
+}
+
+/*-------------------HOME-------------------------*/
+a{
+    text-decoration: none;
+}
+.social #facebook img {
+    background: #1976d2;
+}
+
+.social #instagram img
+{
+background: rgba(247,241,171,1);
+background: -moz-linear-gradient(45deg, rgba(247,241,171,1) 0%, rgba(255,213,61,1) 15%, rgba(255,129,61,1) 29%, rgba(255,64,61,1) 41%, rgba(255,26,136,1) 64%, rgba(255,15,219,1) 85%, rgba(255,15,219,1) 100%);
+background: -webkit-gradient(left bottom, right top, color-stop(0%, rgba(247,241,171,1)), color-stop(15%, rgba(255,213,61,1)), color-stop(29%, rgba(255,129,61,1)), color-stop(41%, rgba(255,64,61,1)), color-stop(64%, rgba(255,26,136,1)), color-stop(85%, rgba(255,15,219,1)), color-stop(100%, rgba(255,15,219,1)));
+background: -webkit-linear-gradient(45deg, rgba(247,241,171,1) 0%, rgba(255,213,61,1) 15%, rgba(255,129,61,1) 29%, rgba(255,64,61,1) 41%, rgba(255,26,136,1) 64%, rgba(255,15,219,1) 85%, rgba(255,15,219,1) 100%);
+background: -o-linear-gradient(45deg, rgba(247,241,171,1) 0%, rgba(255,213,61,1) 15%, rgba(255,129,61,1) 29%, rgba(255,64,61,1) 41%, rgba(255,26,136,1) 64%, rgba(255,15,219,1) 85%, rgba(255,15,219,1) 100%);
+background: -ms-linear-gradient(45deg, rgba(247,241,171,1) 0%, rgba(255,213,61,1) 15%, rgba(255,129,61,1) 29%, rgba(255,64,61,1) 41%, rgba(255,26,136,1) 64%, rgba(255,15,219,1) 85%, rgba(255,15,219,1) 100%);
+background: linear-gradient(45deg, rgba(247,241,171,1) 0%, rgba(255,213,61,1) 15%, rgba(255,129,61,1) 29%, rgba(255,64,61,1) 41%, rgba(255,26,136,1) 64%, rgba(255,15,219,1) 85%, rgba(255,15,219,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7f1ab', endColorstr='#ff0fdb', GradientType=1 );
+
+}
+.social #linkedin img{
+    background: #0077b7;
+}
+
+.social #whatsapp img{
+background: rgba(3,164,246,1);
+background: -moz-linear-gradient(45deg, rgba(3,164,246,1) 0%, rgba(24,208,195,1) 50%, rgba(41,242,155,1) 100%);
+background: -webkit-gradient(left bottom, right top, color-stop(0%, rgba(3,164,246,1)), color-stop(50%, rgba(24,208,195,1)), color-stop(100%, rgba(41,242,155,1)));
+background: -webkit-linear-gradient(45deg, rgba(3,164,246,1) 0%, rgba(24,208,195,1) 50%, rgba(41,242,155,1) 100%);
+background: -o-linear-gradient(45deg, rgba(3,164,246,1) 0%, rgba(24,208,195,1) 50%, rgba(41,242,155,1) 100%);
+background: -ms-linear-gradient(45deg, rgba(3,164,246,1) 0%, rgba(24,208,195,1) 50%, rgba(41,242,155,1) 100%);
+background: linear-gradient(45deg, rgba(3,164,246,1) 0%, rgba(24,208,195,1) 50%, rgba(41,242,155,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#03a4f6', endColorstr='#29f29b', GradientType=1 ); 
+}
+.social img{
+    width: 37px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+.social{
+width:40px;
+position:fixed;
+top:50px;
+right:0;
+		}
+.social{
+top:50%;
+height:205px;
+margin-top:-150px;
+}
+.home div.contenedor2{
+float: left;
+margin-right: 700px;
+margin-top: 100px;
+}
+
+.home .right{
+    float: right;
+    margin-top: -450px;
+    margin-right: 0px;
+}
+
+#blue {
+    font-size: 40px;
+    color: white;
+    margin: 8px 9px 2px 120px;
+    padding-right: 120px;
+}
+
+#blue .grande{
+    font-size: 60px;
+}
+
+ .verde{
+    color:#1FD4A5;
+    font-size: 100px;
+}
+ .verde2{
+    color:#1FD4A5;
+    font-size: 120px;
+}
+.boton {
+background-image: linear-gradient(to right, #02AAB0 0%, #00CDAC 51%, #02AAB0 100%);
+margin:5px 5px 5px 120px;
+text-align: center;
+border-radius: 30px;
+width:220px;
+padding: 5px;
+font-size:30px;
+color:white;
+}
+.boton:hover { background-position: right center; }
+
+/*-----------------PORTAFOLIO---------------------------*/
+.res{
+    padding-top: 100px;
+}
+.negrogrande{
+    font-size: 40px;
+}
+
+.parrafo{
+    font-size: 34px;
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.center{
+    text-align: center;
+    background: white;
+    margin :990px 5px 70px 5px;
+}
+
+.descarga a{
+background-image: linear-gradient(to right, #02AAB0 0%, #00CDAC 51%, #02AAB0 100%);
+text-align: center;
+float:center;
+border-radius: 30px;
+width:220px;
+padding: 5px;
+font-size:30px;
+color:white;
+text-decoration: none;
+list-style: none;
+}
+
+.boton:hover { background-position: right center; }
+
+/*--------------SERVICIO--------------------*/
+section #nosotros{
+    background-size: contain;
+}
+div.services ul  {
+    border-left: 7px solid #1FD4A5;
+}
+.alinear{
+    text-align: left;
+}
+
+ .fin {
+    background: url(../imagenes/parte-final2.png);
+     width: 1920px;
+     height: 1460px;
+     background-repeat: no-repeat;
+}
+
+#servicio{
+    color:black;
+    text-align: center;
+}
+#servicio .alinear{
+    display: flex;
+    flex: wrap;
+    justify-content: center;
+    margin: 85px 2px 2px 2px;
+}
+
+.serv{
+    margin: 20px;
+    margin-top: 200px;
+    position: relative;
+}
+
+.serv img{
+    width: 180px;
+    height: 180px;
+    margin-top: 60px;
+   margin-right: 100px;
+    margin-left: 70px;
+}
+#servicio .center{
+    text-align: center;
+    padding: 10px;
+}
+
+.center2{
+    text-align: center;
+    color: white;
+    margin :9px 5px 70px 5px;
+    font-size: 20px;
+    font-weight: 1;
+}
+
+
+/*--------------SOBRE NOSOTROS--------------------*/
+ .alinear2 img{
+    width: 200px;
+    height: 200px;
+}
+.nos{
+    font-size:50px;
+    text-align: center;
+    margin-top: 78px;
+    color: white;
+}
+.sob{
+    color:white;
+}
+.alinear2 ul .sob{
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    margin-left: 120px;
+    margin-top: 130px;
+    
+}
+
+.alinear2 ul {
+    margin-left:300px ;
+    margin-right:300px ;
+}
+
+.center3{
+    text-align: center;
+}
+
+/*-------------FORMULARIO---------------------*/
+
+@import url(https://fonts.googleapis.com/css?family=Lato:100,300,400);
+#form {
+  position: relative;
+  width: 500px;
+  margin: 50px auto 100px auto;
+}
+
+input {
+  font-family: 'Lato', sans-serif;
+  font-size: 0.875em;
+  width: 470px;
+  height: 50px;
+  padding: 0px 15px 0px 15px;
+  
+  background: transparent;
+  outline: none;
+  color: white;
+  
+  border: solid 1px #1FD4A5;
+  background:#1FD4A5 ;
+  border-bottom: none;
+  
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+}
+
+input:hover {
+  background: white;
+  color:#1FD4A5;
+}
+
+textarea {
+  width: 470px;
+  max-width: 470px;
+  height: 110px;
+  max-height: 110px;
+  padding: 15px;
+  
+  background:white;
+  outline: none;
+  
+  color: #1FD4A5;
+  font-family: 'Lato', sans-serif;
+  font-size: 0.875em;
+  
+  border: solid 1px #1FD4A5;
+  
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+}
+
+textarea:hover {
+  background: #1FD4A5;
+  color: white;
+}
+
+#submit {
+  width: 502px;
+  padding: 0;
+  margin: -5px 0px 0px 0px;
+  font-family: 'Lato', sans-serif;
+  font-size: 0.875em;
+  color: white;
+  outline:none;
+  cursor: pointer;
+  border: solid 1px #1FD4A5;
+  border-top: none;
+}
+
+#submit:hover {
+  color:#1FD4A5;
+}
+/*---------------CONTACTO-------------------*/
+.contacto{
+    margin-left: 90px;
+}
+.la{
+    height: 3px;
+    width: 30px;
+    margin-left: 200px;
+}
+.le{
+     height: 3px;
+    width: 30px;
+    margin-left: 230px;
+}
+.li{
+    height: 3px;
+    width: 30px;
+    margin-left: 210px;
+}
+hr {
+    height: 5px;
+    width: 60px;
+    margin-left: 220px;
+    background-color: #1FD4A5;
+}
+
+.encabezadocajas{
+    font-size: 40px;
+    margin-bottom: 5px;
+    color:#1FD4A5;
+}
+
+.services img{
+    width: 20px;
+    margin-right: 15px;
+}
+.gmail{
+    text-decoration: none;
+    color:darkgray;
+}
+/*--------------PIE DE PÁGINA--------------------*/
+.footer{
+    height: 4rem;
+    background-color: #1FD4A5;
+    text-align: center;
+    color:white;
+}
+
+.footer #derechos{
+    padding-top:25px;
+}
+
+/*--------------redes social--------------------*/
+.box {
+  width: 100px;
+  height: 100px;
+  background: red;
+  color: white;
+}
+
+#one {
+  position: fixed;
+  top: 80px;
+  left: 10px;
+  background: blue;
+}
+/*---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+@media (max-width:1440px){
+      header{
+  width: 1440px;
+   height: 100px; 
+}
+#menu{
+    width: 740px;
+    height: 70px;
+    margin-top: 30PX;
+}
+
+#menu ul li a{
+    font-weight: 400px;
+    font-size: 20px;
+    padding: 10px 15px;
+    color: white;
+}
+
+ header img{
+ width: 400px;
+ margin-left: 100px;
+}
+    
+body {
+background: url(../imagenes/parte-arriba9.png);
+background-repeat: no-repeat;
+width:1440px;
+height: 1300px;
+}
+/*-------------------HOME-------------------------*/
+.home div.contenedor2{
+float: left;
+margin-right: 750px;
+margin-top: 20px;
+margin-left: 70px;
+}
+.home .right img{
+        width: 620px;
+        margin-right: -0px;
+}
+.home .right{
+    float: right;
+    margin-top: -500px;
+}
+
+#blue {
+    font-size: 35px;
+    margin: 86px 9px 2px 2px;
+    padding-right: 0px;
+}
+
+#blue .grande{
+    font-size: 60px;
+}
+
+ .verde{
+    font-size: 80px;
+}
+.boton {
+margin:5px 5px 5px 15px;
+width:200px;
+padding: 10px;
+font-size:33px;
+}
+.boton:hover { background-position: right center; }
+    .res{
+        padding-top: 30px;
+    }  
+
+/*-----------------PORTAFOLIO---------------------------*/
+.parrafo{
+    font-size: 44px;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 40px;
+}
+   .center{
+    margin :1090px -100px 1px 0px;
+} 
+    .verde2{
+    font-size: 80px;
+}
+
+.descarga a{
+width:50px;
+padding: 5px;
+font-size:37px;
+}
+
+div.services ul  {
+    border-left: 3px solid #1FD4A5;
+}
+.alinear{
+    text-align: center;
+}
+
+/*-----------------servicios---------------------------*/
+.fin {
+    background: url(../imagenes/parte-final11.png);
+     background-repeat: no-repeat;
+     width: 1440px;
+     background-repeat: no-repeat;
+     margin-top: 10px;
+}
+#servicio .alinear{
+    margin: 87px 2px 2px 2px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.serv{
+    margin:0px;
+    margin: 200px 30px 200px 30px;
+    }
+#servicio .center{
+    text-align: left;
+    padding: 10px;
+}
+.center2{
+    color: white;
+    margin :9px 5px 70px 5px;
+    font-size: 25px;
+    font-weight: 1;
+}
+
+/*--------------SOBRE NOSOTROS--------------------*/
+.alinear2 img{
+    width: 170px;
+    height: 170px;
+    margin: 20px auto;
+    margin-left: 0px;
+    margin-right: 50px;
+    margin-top: 15px;
+}
+.nos{
+    font-size:50px;
+    text-align: left;
+    margin-top: -100px;
+    margin-bottom: 30px;
+    margin-left: 50px;
+}
+
+.alinear2 ul .sob{
+    width: 200px;
+    height: 100px;
+    margin-left:50px ;
+    margin-top:90px ;
+    margin-bottom: 100px;
+    
+}
+
+.sob .ac h4{
+    margin-left: -40px;
+}
+
+.alinear2 ul {
+    margin-left:10px ;
+    margin-right:10px ;
+    text-align: center;
+}
+
+.center3{
+    font-size: 18px;
+}
+/*-------------------contacto---------------------------*/
+.services img{
+    width: 20px;
+}
+.gmail{
+    font-size: 19px;
+}
+
+.footer{
+    width: 1440px;
+    height: 5rem;
+    }
+}
+/*---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+@media (max-width:1200px){
+  header{
+  width: 1200px;
+   height: 100px; 
+}
+#menu{
+    width: 640px;
+    height: 70px;
+    margin-top: 30PX;
+}
+
+#menu ul li a{
+    font-weight: 400px;
+    font-size: 20px;
+    padding: 10px 15px;
+    color: white;
+}
+
+ header img{
+ width: 300px;
+ margin-left: 100px;
+}
+    
+body {
+background: url(../imagenes/parte-arriba9.png);
+background-repeat: no-repeat;
+width:1201px;
+height: 1300px;
+}
+/*-------------------HOME-------------------------*/
+.home div.contenedor2{
+float: left;
+margin-right: 750px;
+margin-top: 20px;
+margin-left: 70px;
+}
+.home .right img{
+        width: 620px;
+        margin-right: -0px;
+}
+.home .right{
+    float: right;
+    margin-top: -500px;
+}
+
+#blue {
+    font-size: 35px;
+    margin: 86px 9px 2px 2px;
+    padding-right: 0px;
+}
+
+#blue .grande{
+    font-size: 60px;
+}
+
+ .verde{
+    font-size: 80px;
+}
+.boton {
+margin:5px 5px 5px 15px;
+width:200px;
+padding: 10px;
+font-size:33px;
+}
+.boton:hover { background-position: right center; }
+    .res{
+        padding-top: 30px;
+    }  
+
+/*-----------------PORTAFOLIO---------------------------*/
+.parrafo{
+    font-size: 44px;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 40px;
+}
+   .center{
+    margin :1090px -100px 1px 0px;
+} 
+    .verde2{
+    font-size: 80px;
+}
+
+.descarga a{
+width:50px;
+padding: 5px;
+font-size:37px;
+}
+
+div.services ul  {
+    border-left: 3px solid #1FD4A5;
+}
+.alinear{
+    text-align: center;
+}
+
+/*-----------------servicios---------------------------*/
+.fin {
+    background: url(../imagenes/parte-final11.png);
+     background-repeat: no-repeat;
+     width: 1200px;
+     background-repeat: no-repeat;
+     margin-top: 10px;
+}
+#servicio .alinear{
+    margin: 87px 2px 2px 2px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.serv{
+    margin:0px;
+    margin: 200px 30px 200px 30px;
+    }
+#servicio .center{
+    text-align: left;
+    padding: 10px;
+}
+.center2{
+    color: white;
+    margin :9px 5px 70px 5px;
+    font-size: 25px;
+    font-weight: 1;
+}
+
+/*--------------SOBRE NOSOTROS--------------------*/
+.alinear2 img{
+    width: 170px;
+    height: 170px;
+    margin: 20px auto;
+    margin-left: 0px;
+    margin-right: 50px;
+    margin-top: 15px;
+}
+.nos{
+    font-size:50px;
+    text-align: left;
+    margin-top: -100px;
+    margin-bottom: 30px;
+}
+
+.alinear2 ul .sob{
+    width: 200px;
+    height: 100px;
+    margin-left:50px ;
+    margin-top:90px ;
+    margin-bottom: 100px;
+    
+}
+
+.sob .ac h4{
+    margin-left: -40px;
+}
+
+.alinear2 ul {
+    margin-left:10px ;
+    margin-right:10px ;
+    text-align: center;
+}
+
+.center3{
+    font-size: 18px;
+}
+/*-------------------contacto---------------------------*/
+.services img{
+    width: 25px;
+}
+.gmail{
+    font-size: 25px;
+}
+
+.footer{
+    width: 1201px;
+    height: 5rem;
+    }
+}
+
+/*responsive escritorios normales, tablets en horizontal y escritorios muy anchos---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+@media (max-width:1024px){
+    
+   header{
+   min-width: 1024px;
+   max-width: 768px;
+   height: 100px; 
+}
+#menu{
+    width: 640px;
+    height: 70px;
+    margin-top: -30PX;
+}
+
+#menu ul li a{
+    font-weight: 400px;
+    font-size: 20px;
+    padding: 10px 15px;
+    color: white;
+}
+
+ header img{
+ width: 300px;
+ margin-left: 50px;
+}
+    
+body {
+background: url(../imagenes/parte-arriba9.png);
+background-repeat: no-repeat;
+width:1200px;
+height: 1300px;
+}
+/*-------------------HOME-------------------------*/
+.home div.contenedor2{
+float: left;
+margin-right: 500px;
+margin-top: 20px;
+margin-left: 30px;
+}
+.home .right img{
+        width: 520px;
+        margin-right: -0px;
+}
+.home .right{
+    float: right;
+    margin-top: -500px;
+}
+
+#blue {
+    font-size: 35px;
+    margin: 86px 9px 2px 2px;
+    padding-right: 20px;
+}
+
+#blue .grande{
+    font-size: 60px;
+}
+
+ .verde{
+    font-size: 80px;
+}
+.boton {
+margin:5px 5px 5px 15px;
+width:200px;
+padding: 10px;
+font-size:33px;
+}
+.boton:hover { background-position: right center; }
+    .res{
+        padding-top: 30px;
+    }  
+
+/*-----------------PORTAFOLIO---------------------------*/
+.parrafo{
+    font-size: 34px;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 40px;
+}
+   .center{
+    margin :1090px -100px 1px 0px;
+} 
+    .verde2{
+    font-size: 70px;
+}
+
+.descarga a{
+width:50px;
+padding: 5px;
+font-size:27px;
+}
+
+div.services ul  {
+    border-left: 3px solid #1FD4A5;
+}
+.alinear{
+    text-align: center;
+}
+
+/*-----------------servicios---------------------------*/
+.fin {
+    background: url(../imagenes/parte-final11.png);
+     background-repeat: no-repeat;
+     width: 1200px;
+     height: 1523px;
+     background-repeat: no-repeat;
+     margin-top: 10px;
+}
+#servicio .alinear{
+    margin: 87px 2px 2px 2px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.serv{
+    margin:0px;
+    margin: 200px 30px 200px 30px;
+    }
+.serv img{
+    width: 200px;
+    height: 200px;
+    margin-top: 200px;
+   margin-right: 0px;
+    margin-left: 20px;
+}
+#servicio .center{
+    text-align: left;
+    padding: 10px;
+}
+.center2{
+    color: white;
+    margin :9px 5px 70px 5px;
+    font-size: 16px;
+    font-weight: 1;
+}
+
+/*--------------SOBRE NOSOTROS--------------------*/
+.alinear2 img{
+    width: 140px;
+    height: 140px;
+    margin: 20px auto;
+    margin-left: 60px;
+    margin-right: 50px;
+    margin-top: 60px;
+}
+.nos{
+    font-size:50px;
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.alinear2 ul .sob{
+    width: 200px;
+    height: 100px;
+    margin-left:50px ;
+    margin-top:90px ;
+    margin-bottom: 100px;
+    
+}
+
+.sob .ac h4{
+    margin-left: 65px;
+}
+
+.alinear2 ul {
+    margin-left:10px ;
+    margin-right:10px ;
+    text-align: left;
+}
+
+.center3{
+    font-size: 20px;
+}
+/*-------------------contacto---------------------------*/
+.gmail{
+    font-size: 10px;
+}
+
+.footer{
+    width: 1200px;
+    height: 5rem;
+}
+}
+
+
+/*responsive moviles en horizontal y tablets en vertical---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+@media only screen and (min-width:481px) and (max-width:768px){
+header{
+   min-width: 480px;
+   max-width: 768px;
+   height: 100px; 
+}
+#menu{
+    width: 640px;
+    height: 70px;
+    margin-top: -30PX;
+}
+
+#menu ul li a{
+    font-weight: 400px;
+    font-size: 20px;
+    padding: 10px 15px;
+    color: white;
+}
+
+#menu ul li {
+    position: relative;
+    margin:0;
+    padding:0;
+}
+
+ header img{
+ width: 250px;
+ margin-left: 250px;
+}
+    
+body {
+background: url(../imagenes/parte-arriba6.png);
+background-repeat: no-repeat;
+width: 768px;
+height: 800px;
+}
+/*-------------------HOME-------------------------*/
+.home div.contenedor2{
+float: left;
+margin-right: 300px;
+margin-top: 20px;
+margin-left: 30px;
+}
+.home .right img{
+        width: 320px;
+        margin-right: -0px;
+}
+.home .right{
+    float: right;
+    margin-top: -300px;
+}
+
+#blue {
+    font-size: 25px;
+    margin: 8px 9px 2px 2px;
+    padding-right: 20px;
+}
+
+#blue .grande{
+    font-size: 40px;
+}
+
+ .verde{
+    font-size: 60px;
+}
+.boton {
+margin:5px 5px 5px 15px;
+width:180px;
+padding: 10px;
+font-size:33px;
+}
+.boton:hover { background-position: right center; }
+    .res{
+        padding-top: 30px;
+    }  
+
+/*-----------------PORTAFOLIO---------------------------*/
+.parrafo{
+    font-size: 24px;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 20px;
+}
+   .center{
+    margin :690px -100px -70px 50px;
+} 
+    .verde2{
+    font-size: 60px;
+}
+
+.descarga a{
+width:20px;
+padding: 5px;
+font-size:27px;
+}
+
+div.services ul  {
+    border-left: 3px solid #1FD4A5;
+}
+.alinear{
+    text-align: center;
+}
+
+/*-----------------servicios---------------------------*/
+.fin {
+    background: url(../imagenes/parte-final8.png);
+     background-repeat: no-repeat;
+     width: 768px;
+     height: 1700px;
+     background-repeat: no-repeat;
+     margin-top: 10px;
+}
+#servicio .alinear{
+    margin: 87px 2px 2px 2px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.serv{
+    margin:0px;
+    margin: 200px 20px 200px 20px;
+    }
+.serv img{
+    width: 150px;
+    height: 150px;
+    margin-top: 0px;
+   margin-right: 0px;
+    margin-left: 20px;
+}
+#servicio .center{
+    text-align: left;
+    padding: 10px;
+}
+.center2{
+    color: white;
+    margin :9px 5px 70px 5px;
+    font-size: 20px;
+    font-weight: 1;
+}
+
+/*--------------SOBRE NOSOTROS--------------------*/
+.alinear2 img{
+    width: 130px;
+    height: 130px;
+    margin: 20px auto;
+    margin-left: 60px;
+    margin-top: 60px;
+}
+.nos{
+    font-size:50px;
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.alinear2 ul .sob{
+    width: 200px;
+    height: 100px;
+    margin-left:20px ;
+    margin-top:90px ;
+    margin-bottom: 100px;
+    
+}
+
+.alinear2 ul .sob .ac{
+    margin-left:  213px;
+    margin-top: -100px;
+    text-align: center;
+}
+
+.sob .ac h4{
+    margin-left: 65px;
+}
+
+.alinear2 ul {
+    margin-left:10px ;
+    margin-right:10px ;
+    text-align: left;
+}
+
+.center3{
+    font-size: 20px;
+}
+/*-------------------contacto---------------------------*/
+
+.contacto{
+    margin-left: 90px;
+}
+.la{
+    height: 3px;
+    width: 30px;
+    margin-left: 110px;
+}
+.le{
+     height: 3px;
+    width: 30px;
+    margin-left: 210px;
+}
+.li{
+    height: 3px;
+    width: 30px;
+    margin-left: 130px;
+}
+hr {
+    height: 5px;
+    width: 60px;
+    margin-left: 220px;
+    background-color: #1FD4A5;
+}
+
+.encabezadocajas{
+    font-size: 40px;
+}
+
+.services img{
+    width: 30px;
+    margin-right: 15px;
+}
+.gmail{
+    font-size: 19px;
+}
+.footer{
+    width: 768px;
+    height: 5rem;
+}
+}
+/*-------------------FIN---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+/*moviles en vertical*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+@media only screen and (min-width:320px) and (max-width:480px){
+/*menu __________________*/
+header{
+   width: 480px;
+   height: 100px; 
+}
+#menu{
+    width: 410px;
+    height: 70px;
+    margin-top: -60PX;
+}
+
+#menu ul li a{
+    font-weight: 400px;
+    font-size: 12px;
+    padding: 10px 15px;
+    color: white;
+}
+
+#menu ul li {
+    position: relative;
+    float: left;
+    margin:0;
+    padding:0;
+}
+
+ header img{
+width: 150px;
+ margin-left: 145px;
+}
+    
+body {
+background: url(../imagenes/parte-arriba3.png);
+background-repeat: no-repeat;
+width: 480px;
+height: 580px;
+}
+/*-------------------HOME-------------------------*/
+.home div.contenedor2{
+margin: 10%;
+}
+.home .right img{
+        width: 220px;
+        margin-right: -0px;
+}
+.home .right{
+    margin-top: -190px;
+}
+
+#blue {
+    font-size: 10px;
+    margin: 8px 9px 2px 2px;
+    padding-right: 20px;
+}
+
+#blue .grande{
+    font-size: 20px;
+}
+
+ .verde{
+    font-size: 30px;
+}
+.boton {
+margin:5px 5px 5px 15px;
+width:120px;
+padding: 5px;
+font-size:15px;
+}
+    .res{
+        padding-top: 30px;
+    }  
+
+/*-----------------PORTAFOLIO---------------------------*/
+.parrafo{
+    font-size: 24px;
+    margin-left: 0%;
+    margin-right: 0%;
+}
+   .center{
+    margin :490px 5px 10px 5px;
+} 
+    .verde2{
+    font-size: 40px;
+}
+
+.descarga a{
+width:220px;
+padding: 5px;
+font-size:17px;
+}
+
+div.services ul  {
+    border-left: 3px solid #1FD4A5;
+}
+.alinear{
+    text-align: left;
+}
+/*-----------------servicios---------------------------*/
+.fin {
+    background: url(../imagenes/parte-final5.png);
+     background-repeat: no-repeat;
+     width: 480px;
+     height: 1700px;
+     background-repeat: no-repeat;
+     margin-top: 10px;
+}
+#servicio .alinear{
+    margin: 87px 2px 2px 2px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.serv{
+    margin:0px;
+    margin-top: 200px;
+    }
+    .serv .ab{
+        margin-top: -160px;
+    }
+.serv img{
+    width: 120px;
+    height: 120px;
+    margin-top: 0px;
+   margin-right: 0px;
+    margin-left: 20px;
+}
+#servicio .center{
+    text-align: left;
+    padding: 10px;
+}
+.center2{
+    color: white;
+    margin :9px 5px 70px 5px;
+    font-size: 15px;
+    font-weight: 1;
+}
+/*--------------SOBRE NOSOTROS--------------------*/
+
+.alinear2 img{
+    width: 100px;
+    height: 100px;
+    margin: 20px auto;
+    margin-left: 45px;
+    margin-top: 60px;
+}
+.nos{
+    font-size:30px;
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.alinear2 ul .sob{
+    width: 200px;
+    height: 100px;
+    margin-left:20px ;
+    margin-top:40px ;
+    margin-bottom: 100px;
+    
+}
+    .alinear2 ul .sob .ac{
+    margin-left:  0px;
+}
+
+.alinear2 ul {
+    margin-left:10px ;
+    margin-right:10px ;
+    text-align: left;
+}
+
+.center3{
+    font-size: 10px;
+    color: white;
+}
+
+
+/*-------------------contacto---------------------------*/
+.contacto{
+    margin-left: 90px;
+}
+.la{
+    height: 3px;
+    width: 30px;
+    margin-left: 270px;
+}
+.le{
+     height: 3px;
+    width: 30px;
+    margin-left: 300px;
+}
+.li{
+    height: 3px;
+    width: 30px;
+    margin-left: 270px;
+}
+hr {
+    height: 5px;
+    width: 60px;
+    margin-left: 160px;
+    background-color: #1FD4A5;
+}
+
+.encabezadocajas{
+    font-size: 30px;
+}
+
+.services img{
+    width: 20px;
+    margin-right: 15px;
+}
+
+.gmail{
+    font-size: 15px;
+    text-decoration: none;
+    color:darkgray;
+}
+}
+/*-------------------FIN---------------------------*/
+
+
